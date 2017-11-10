@@ -11,9 +11,9 @@ $(document).ready(function() {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
-  if (window.location.pathname != "/") {       // if hexo in subdir of site, should change this line
-    $('.panel-cover').addClass('panel-cover--collapsed');
-  }
+  if (window.location.pathname != "/huno/") {
+  $('.panel-cover').addClass('panel-cover--collapsed');
+ }
 
   $('.btn-mobile-menu').click(function() {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown');
